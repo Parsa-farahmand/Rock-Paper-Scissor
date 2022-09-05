@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #24272E;
+}
+header{
+    background: whitesmoke;
+    padding: 20px;
+}
+header > h1{
+    text-align: center;
+    color: #25272E;
+    font-family: sans-serif;
+}
+
+#user-socre{
+    margin-left: 60px;
+}
+.score-board{
+    border: 3px solid white;
+    margin: 20px auto;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    border-radius: 7px;
+    font-family: sans-serif;
+    position: relative;
+    padding-right: 20px;
+}
+.badge{
+    background: #E25840;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: sans-serif;
+}
+#user-label{
+    position: absolute;
+    top: 11px;
+    left: -28px;
+    padding: 8px;
+    border-radius:3px;
+}
+#computer-label{
+    position: absolute;
+    top: 11px;
+    right: -30px;
+    padding: 8px;
+    border-radius:3px;
+}
+.result{
+    font-size: 40px;
+    color: white;
+}
+.result > p{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#action-message{
+    margin-left: 13em;
+}
+.choice{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 30px;
+    transition:0.6s;
+     border: 6px solid white;
+     margin: 24px;
+}
+.choices{
+    text-align: center;
+    margin: 30px;
+}
+img{
+    border-radius: 30%;
+ }
+ 
+ #action-message{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-right: 6rem;
+    margin-top: 20px;
+ }
+ .choice:hover{
+    cursor: pointer;
+ }
+#p:hover{
+    border: 6px solid red;
+ }
+ #r:hover{
+    border: 6px solid green;
+ }
+ #s:hover{
+    border: 6px solid blue;
+ }
